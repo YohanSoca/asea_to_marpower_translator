@@ -86,7 +86,7 @@ api_data_base = [
         'name': 'L1 power factor',
         'asea_cmd': ':MEASure:SP1:PF1',
         'desc': 'Shore Power Phase A Power Factor Real number, 0 to 1.00',
-        'spc_register': '',
+        'spc_register': '1010',
         'type': 'keep-alive',
         'last-query': '',
         'value': ''
@@ -95,7 +95,7 @@ api_data_base = [
         'name': 'L2 power factor',
         'asea_cmd': ':MEASure:SP1:PF2',
         'desc': 'Shore Power Phase B Power Factor Real number, 0 to 1.00',
-        'spc_register': '',
+        'spc_register': '1012',
         'type': 'keep-alive',
         'last-query': '',
         'value': ''
@@ -104,7 +104,7 @@ api_data_base = [
         'name': 'L3 power factor',
         'asea_cmd': ':MEASure:SP1:PF3',
         'desc': 'Shore Power Phase C Power Factor Real number, 0 to 1.00',
-        'spc_register': '',
+        'spc_register': '1013',
         'type': 'keep-alive',
         'last-query': '',
         'value': ''
@@ -113,7 +113,7 @@ api_data_base = [
         'name': 'Asea all',
         'asea_cmd': ':MEASure:SP1:ALL',
         'desc': 'VLL1,VLL2,VLL3,CURR1, See above, expressed in CURR2,CURR3,FREQ 3.2 precision',
-        'spc_register': '',
+        'spc_register': '1014',
         'type': 'keep-alive',
         'last-query': '',
         'value': ''
@@ -124,14 +124,14 @@ api_data_base = [
         'desc': 'Converter Output Frequency Real number, 0 to 100',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': '',
+        'last-query': '1015',
         'value': ''
     },
     {
         'name': 'Converter L1 voltage',
         'asea_cmd': ':MEASure:CONVerter:VOLTage1',
         'desc': 'Converter Phase A Output Voltage Real number, 0 to 1000',
-        'spc_register': '',
+        'spc_register': '1016',
         'type': 'keep-alive',
         'last-query': '',
         'value': ''
