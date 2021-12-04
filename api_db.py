@@ -345,8 +345,74 @@ api_data_base = [
         'spc_register': '',
         'type': 'keep-alive',
         'last-query': ''
+    },
+    {
+        'name': 'Shore Power ON',
+        'asea_cmd': ':SHORe:ON',
+        'desc': 'Shore Power ON Same as pressing the Shore Power ON key on the panel',
+        'spc_register': '',
+        'type': 'one-time',
+        'last-query': ''
+    },
+    {
+        'name': 'Shore Power OFF',
+        'asea_cmd': ':SHORe:OFF',
+        'desc': 'Shore Power OFF Same as pressing the Shore Power OFF key on the panel',
+        'spc_register': '',
+        'type': 'one-time',
+        'last-query': ''
+    },
+    {
+        'name': 'Converter Power ON',
+        'asea_cmd': ':CONVerter:ON',
+        'desc': 'Converter Power ON Same as pressing the Converter Power ON key on the panel',
+        'spc_register': '',
+        'type': 'one-time',
+        'last-query': ''
+    },
+    {
+        'name': 'Converter Power OFF',
+        'asea_cmd': ':CONVerter:OFF',
+        'desc': 'Converter Power OFF Same as pressing the Converter Power OFF key on the panel',
+        'spc_register': '',
+        'type': 'one-time',
+        'last-query': ''
+    },
+    {
+        'name': 'Transfer from Generator to Converter',
+        'asea_cmd': ':TS:CONVerter:ON',
+        'desc': 'Transfer from Generator to Converter',
+        'spc_register': '',
+        'type': 'one-time',
+        'last-query': ''
+    },
+    {
+        'name': 'Transfer from Converter to Generator',
+        'asea_cmd': ':TS:GENerator:ON',
+        'desc': 'Transfer from Converter to Generator',
+        'spc_register': '',
+        'type': 'one-time',
+        'last-query': ''
+    },
+    {
+        'name': 'Set Generator 1 as transfer master',
+        'asea_cmd': ':TS:G1:MASTer',
+        'desc': 'Set Generator 1 as transfer master Same as pressing the GENERATOR display key, then F1',
+        'spc_register': '',
+        'type': 'one-time',
+        'last-query': ''
+    },
+    {
+        'name': 'Set Generator 2 as transfer master',
+        'asea_cmd': ':TS:G2:MASTer',
+        'desc': 'Set Generator 2 as transfer master Same as pressing the GENERATOR display key, then F2',
+        'spc_register': '',
+        'type': 'one-time',
+        'last-query': ''
     }
 ]
+
+
 
 
 
