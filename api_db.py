@@ -7,7 +7,8 @@ api_data_base = [
         'desc': 'Shore Power A RMS Current Real number, 0 to 1000',
         'spc_register': '1005',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L2 current',
@@ -15,7 +16,8 @@ api_data_base = [
         'desc': 'Shore Power B RMS Current Real number, 0 to 1000',
         'spc_register': '1006',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L3 current',
@@ -23,7 +25,8 @@ api_data_base = [
         'desc': 'Shore Power C RMS Current Real number, 0 to 1000',
         'spc_register': '1007',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     }, 
     {
         'name': 'L1 KVA',
@@ -31,7 +34,8 @@ api_data_base = [
         'desc': 'Shore Power Phase A kVA Real number, 0 to 1000',
         'spc_register': '1013',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L2 KVA',
@@ -39,7 +43,8 @@ api_data_base = [
         'desc': 'Shore Power Phase B kVA Real number, 0 to 1000',
         'spc_register': '1013',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     }, 
     {
         'name': 'L3 KVA',
@@ -47,7 +52,8 @@ api_data_base = [
         'desc': 'Shore Power Phase C kVA Real number, 0 to 1000',
         'spc_register': '1013',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L1 KW',
@@ -55,7 +61,8 @@ api_data_base = [
         'desc': 'Shore Power Phase A kW Real number, 0 to 1000',
         'spc_register': '100B',
         'type': 'keep-alive', 
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L2 KW',
@@ -63,7 +70,8 @@ api_data_base = [
         'desc': 'Shore Power Phase B kW Real number, 0 to 1000',
         'spc_register': '100B',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L3 KW',
@@ -71,7 +79,8 @@ api_data_base = [
         'desc': 'Shore Power Phase C kW Real number, 0 to 1000',
         'spc_register': '100B',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L1 power factor',
@@ -79,7 +88,8 @@ api_data_base = [
         'desc': 'Shore Power Phase A Power Factor Real number, 0 to 1.00',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L2 power factor',
@@ -87,7 +97,8 @@ api_data_base = [
         'desc': 'Shore Power Phase B Power Factor Real number, 0 to 1.00',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'L3 power factor',
@@ -95,7 +106,8 @@ api_data_base = [
         'desc': 'Shore Power Phase C Power Factor Real number, 0 to 1.00',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Asea all',
@@ -103,7 +115,8 @@ api_data_base = [
         'desc': 'VLL1,VLL2,VLL3,CURR1, See above, expressed in CURR2,CURR3,FREQ 3.2 precision',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     }, 
     {
         'name': 'Converter frecuency',
@@ -111,7 +124,8 @@ api_data_base = [
         'desc': 'Converter Output Frequency Real number, 0 to 100',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter L1 voltage',
@@ -119,7 +133,8 @@ api_data_base = [
         'desc': 'Converter Phase A Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter L2 voltage',
@@ -127,7 +142,8 @@ api_data_base = [
         'desc': 'Converter Phase B Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     }, 
     {
         'name': 'Converter L3 voltage',
@@ -135,7 +151,8 @@ api_data_base = [
         'desc': 'Converter Phase C Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase A-B Output Voltage',
@@ -143,7 +160,8 @@ api_data_base = [
         'desc': 'Converter Phase A-B Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase B-C Output Voltage',
@@ -151,7 +169,8 @@ api_data_base = [
         'desc': 'Converter Phase B-C Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase C-A Output Voltage',
@@ -159,7 +178,8 @@ api_data_base = [
         'desc': 'Converter Phase C-A Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter A RMS Current',
@@ -167,7 +187,8 @@ api_data_base = [
         'desc': 'Converter A RMS Current Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter B RMS Current',
@@ -175,7 +196,8 @@ api_data_base = [
         'desc': 'Converter B RMS Current Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter C RMS Current',
@@ -183,7 +205,8 @@ api_data_base = [
         'desc': 'Converter C RMS Current Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase A kVA',
@@ -191,7 +214,8 @@ api_data_base = [
         'desc': 'Converter Phase A kVA Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase B kVA',
@@ -199,7 +223,8 @@ api_data_base = [
         'desc': 'Converter Phase B kVA Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase C kVA',
@@ -207,7 +232,8 @@ api_data_base = [
         'desc': 'Converter Phase C kVA Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase A kW',
@@ -215,7 +241,8 @@ api_data_base = [
         'desc': 'Converter Phase A kW Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase B kW',
@@ -223,7 +250,8 @@ api_data_base = [
         'desc': 'Converter Phase B kW Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         
@@ -232,7 +260,8 @@ api_data_base = [
         'desc': 'Converter Phase C kW Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase A Power Factor',
@@ -240,7 +269,8 @@ api_data_base = [
         'desc': 'Converter Phase A Power Factor Real number, 0 to 1.00',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase B Power Factor',
@@ -248,7 +278,8 @@ api_data_base = [
         'desc': 'Converter Phase B Power Factor Real number, 0 to 1.00',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Phase C Power Factor',
@@ -256,7 +287,8 @@ api_data_base = [
         'desc': 'Converter Phase C Power Factor Real number, 0 to 1.00',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'VOLT1, VOLT2, VOLT3, CURR1, CURR2, CURR3, FREQ',
@@ -264,7 +296,8 @@ api_data_base = [
         'desc': 'VOLT1, VOLT2, VOLT3, CURR1, See above, expressed in CURR2, CURR3, FREQ 3.2 precision',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Generator #1 Output Frequency',
@@ -272,7 +305,8 @@ api_data_base = [
         'desc': 'Generator #1 Output Frequency Real number, 0 to 100',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Generator #1 Phase A Output Voltage',
@@ -280,7 +314,8 @@ api_data_base = [
         'desc': 'Generator #1 Phase A Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Generator #1 Phase B Output Voltage',
@@ -288,7 +323,8 @@ api_data_base = [
         'desc': 'Generator #1 Phase B Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Generator #1 Phase C Output Voltage',
@@ -296,7 +332,8 @@ api_data_base = [
         'desc': 'Generator #1 Phase C Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Generator #2 Output Frequency',
@@ -304,7 +341,8 @@ api_data_base = [
         'desc': 'Generator #2 Output Frequency Real number, 0 to 100',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
      {
         'name': 'Generator #2 Phase A Output Voltage',
@@ -312,7 +350,8 @@ api_data_base = [
         'desc': 'Generator #2 Phase A Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Generator #2 Phase A Output Voltage',
@@ -320,7 +359,8 @@ api_data_base = [
         'desc': 'Generator #2 Phase A Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Generator #2 Phase A Output Voltage',
@@ -328,7 +368,8 @@ api_data_base = [
         'desc': 'Generator #2 Phase A Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Generator #2 Phase A Output Voltage',
@@ -336,7 +377,8 @@ api_data_base = [
         'desc': 'Generator #2 Phase A Output Voltage Real number, 0 to 1000',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': '(GEN1) VOLT1, VOLT2, VOLT3, FREQ (GEN2) VOLT1, VOLT2, VOLT3, FREQ',
@@ -344,7 +386,8 @@ api_data_base = [
         'desc': 'GEN1) VOLT1, VOLT2, VOLT3, See above, reduced to FREQ, (GEN2) VOLT1, VOLT2, 3.2 resolution VOLT3, FREQ',
         'spc_register': '',
         'type': 'keep-alive',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Shore Power ON',
@@ -352,7 +395,7 @@ api_data_base = [
         'desc': 'Shore Power ON Same as pressing the Shore Power ON key on the panel',
         'spc_register': '',
         'type': 'one-time',
-        'last-query': ''
+        'last-query': '', 'value': ''
     },
     {
         'name': 'Shore Power OFF',
@@ -360,7 +403,8 @@ api_data_base = [
         'desc': 'Shore Power OFF Same as pressing the Shore Power OFF key on the panel',
         'spc_register': '',
         'type': 'one-time',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Power ON',
@@ -368,7 +412,8 @@ api_data_base = [
         'desc': 'Converter Power ON Same as pressing the Converter Power ON key on the panel',
         'spc_register': '',
         'type': 'one-time',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Converter Power OFF',
@@ -376,7 +421,8 @@ api_data_base = [
         'desc': 'Converter Power OFF Same as pressing the Converter Power OFF key on the panel',
         'spc_register': '',
         'type': 'one-time',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Transfer from Generator to Converter',
@@ -384,7 +430,8 @@ api_data_base = [
         'desc': 'Transfer from Generator to Converter',
         'spc_register': '',
         'type': 'one-time',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Transfer from Converter to Generator',
@@ -392,7 +439,8 @@ api_data_base = [
         'desc': 'Transfer from Converter to Generator',
         'spc_register': '',
         'type': 'one-time',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Set Generator 1 as transfer master',
@@ -400,7 +448,8 @@ api_data_base = [
         'desc': 'Set Generator 1 as transfer master Same as pressing the GENERATOR display key, then F1',
         'spc_register': '',
         'type': 'one-time',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     },
     {
         'name': 'Set Generator 2 as transfer master',
@@ -408,7 +457,8 @@ api_data_base = [
         'desc': 'Set Generator 2 as transfer master Same as pressing the GENERATOR display key, then F2',
         'spc_register': '',
         'type': 'one-time',
-        'last-query': ''
+        'last-query': '',
+        'value': ''
     }
 ]
 
