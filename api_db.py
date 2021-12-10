@@ -1,6 +1,6 @@
+import numpy as np
 
-
-api_data_base = [
+api_data_base = np.array( [
     {
         'name': 'L1 current',
         'asea_cmd': ':MEASure:SP1:CURRent1',
@@ -460,10 +460,5 @@ api_data_base = [
         'last-query': '',
         'value': ''
     }
-]
-
-
-
-
-
+])
 
